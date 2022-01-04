@@ -1,0 +1,38 @@
+{
+  "name": "cache-on-function",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "license": "ISC",
+  "description": "A simple redis cache library to functions",
+  "author": {
+    "email": "tiagobg_bg@hotmail.com",
+    "name": "Tiago Guirra"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build"
+  },
+  "devDependencies": {
+    "@types/redis": "^2.8.32",
+    "i": "^0.3.6",
+    "npm": "^6.10.1",
+    "tslint": "^5.18.0",
+    "tslint-config-standard": "^8.0.1",
+    "tslint-jest": "^1.0.5",
+    "typescript": "^3.5.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tiagoguirra/cache-on-function"
+  },
+  "dependencies": {
+    "cache-on-redis": "^0.0.8",
+    "mustache": "^4.2.0"
+  },
+  "keywords": [
+    "redis",
+    "cache",
+    "cache function",
+    "with cache"
+  ]
+}
